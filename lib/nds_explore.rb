@@ -16,7 +16,7 @@ def print_first_directors_movie_titles
   nds = directors_database
   dir_index = 0
 
-  while dir_index = 0 do
+  while dir_index <= 0 do
     mov_index = 0
     while mov_index < nds[0][:movies].count do
       puts nds[0][:movies][:title]
